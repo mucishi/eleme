@@ -1,0 +1,179 @@
+header{
+    height: 5.48rem;
+    width: 100%;
+    /*background-color: #17ff25;*/
+    padding: 1.06rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+header .touxiang{
+    width: 2.64rem;
+    height: 2.64rem;
+    border-radius: 50%;
+    background-color: #0214e7;
+    margin-left: 2.18rem;
+    background-image: url("../img/register/touxiang.png");
+    background-size: 100% 100%;
+}
+header .text1{
+    width: 100%;
+    height: 0.22rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.22rem;
+    margin-top: 0.4rem;
+}
+header .three{
+    width: 100%;
+    height: 0.28rem;
+    /*background-color: #b8ffee;*/
+    font-size: 0.2rem;
+    margin-top: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .three .yuan1{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background-color: #e7c8a6;
+    margin-right: 0.12rem;
+}
+header .three .yuan2{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background-color: #f39938;
+    margin-right: 0.12rem;
+}
+header .three .yuan3{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background-color: #fb3333;
+    margin-right: 0.12rem;
+}
+header .three .yuan4{
+    margin-left: 0.12rem;
+}
+/*注册框*/
+.registerBox{
+    width: 100%;
+    height: 7.46rem;
+    /*background-color: #0214e7;*/
+    padding: 0.58rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.registerBox .rectangleOne{
+    width: 5.56rem;
+    height: 0.48rem;
+    background-color: #ecc250;
+    border-radius: 0.19rem;
+    margin-left: 0.8rem;
+}
+.registerBox .rectangTwo{
+    width: 6.14rem;
+    height: 3.90rem;
+    border-radius: 0.15rem;
+    background: white;
+    border: 0.04rem solid #9d989b;
+    margin-top: -0.2rem;
+    margin-left: 0.46rem;
+    z-index: 22;
+    display: flex;
+    flex-direction: column;
+
+}
+.registerBox .rectangTwo .circle{
+    flex-grow: 1;
+    /*background-color: #0214e7;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 0.18rem;
+    align-items: center;
+}
+.registerBox .rectangTwo .circle .circleOne{
+    width: 0.23rem;
+    height: 0.23rem;
+    border-radius: 50%;
+    background-color: #f31923;
+}
+.registerBox .rectangTwo .circle .circleTwo{
+    width: 0.23rem;
+    height: 0.23rem;
+    border-radius: 50%;
+    background-color: #f30c0c;
+    margin-left: 0.3rem;
+}
+.registerBox .rectangTwo .rectang{
+    flex-grow: 1;
+    /*background-color: #a7a27d;*/
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.registerBox .rectangTwo .rectang i{
+    font-size: 0.3rem;
+}
+.registerBox .rectangTwo .rectang .icon-shouji{
+    margin-left: 0.45rem;
+}
+.registerBox .rectangTwo .rectang .icon-mima{
+    margin-left: 0.45rem;
+}
+.registerBox .rectangTwo .rectang .yanzhengma{
+    width: 1.2rem;
+    height: 0.3rem;
+    border-radius: 0.14rem;
+    /*background-color: #5dc47f;*/
+    font-size: 0.16rem;
+}
+.registerBox .rectangTwo .rectang input{
+    width: 3.3rem;
+    height: 0.5rem;
+    margin-left: 0.1rem;
+    margin-left: 0.1rem;
+}
+.registerBox .rectangTwo .rectang .left{
+    width: 0.6rem;
+    height: 0.2rem;
+    border-radius: 0.4rem;
+    background-color: #00a0e9;
+
+}
+.registerBox .rectangTwo .rectang .right{
+    flex-grow: 1;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    font-size: 0.18rem;
+}
+.registerBox .rectangThree{
+    width: 1.94rem;
+    height: 0.5rem;
+    border-radius: 0.12rem;
+    background-color: #bcb4ab;
+    z-index: 22;
+    margin-top: -0.24rem;
+    margin-left: 2.5rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+/*底部*/
+footer{
+    width: 100%;
+    height: 0.66rem;
+    /*background-color: #a7403e;*/
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.16rem;
+
+}
+footer .box{
+    width: 1rem;
+    height: 0.04rem;
+    background-color: #ad9797;
+}

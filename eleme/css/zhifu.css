@@ -1,0 +1,232 @@
+header{
+    width: 100%;
+    height: 4.26rem;
+    background-image: url("../img/zhifu/top.png");
+    background-size: 100% 100%;
+    padding: 0.4rem 0.24rem 0rem 0.24rem;
+    box-sizing: border-box;
+}
+header .top{
+    width: 100%;
+    height: 0.88rem;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+}
+header .bottom{
+    width: 100%;
+    height: 1.40rem;
+    /*background-color: orange;*/
+    display: flex;
+    flex-direction: column;
+}
+header .bottom .text1{
+    flex-grow: 1;
+    /*background-color: #17ff25;*/
+    font-size: 0.2rem;
+    color: white;
+}
+header .bottom .text1 span{
+    color: white;
+    margin-left: 0.15rem;
+}
+header .bottom .text2{
+    flex-grow: 1;
+    color: white;
+    /*background-color: #667cff;*/
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+header .bottom .text2 .kaitong{
+    color: white;
+}
+.icon-you, .icon-fanhui{
+    color: white;
+}
+header .bottom .text3{
+    flex-grow: 1;
+    /*background-color: #ff7fd1;*/
+    font-size: 0.2rem;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+i{
+    font-size: 0.2rem;
+}
+/*中间*/
+.middle{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+
+}
+
+.middle .yuanjiaojuxing{
+    width: 100%;
+    height: 1.68rem;
+    border-radius: 0.27rem;
+    background-color: #fff;
+    z-index: 11;
+    margin-top: -1.25rem;
+}
+.middle .yuanjiaojuxing .top{
+     width: 100%;
+     height:0.84rem;
+     border-top-left-radius: 0.27rem;
+     border-top-right-radius: 0.27rem;
+     box-sizing: border-box;
+     /*background-color: #a724c4;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.12rem;
+    box-sizing: border-box;
+}
+.middle .yuanjiaojuxing .bottom{
+    width: 100%;
+    height:0.84rem;
+    border-bottom-left-radius: 0.27rem;
+    border-bottom-right-radius: 0.27rem;
+    box-sizing: border-box;
+    /*background-color: #ff39db;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.12rem;
+    box-sizing: border-box;
+}
+/*购买详情*/
+.shoplist{
+    width: 100%;
+    height: 4.74rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    /*background-color: #17ff25;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+}
+.shoplist .title{
+    flex-grow: 1;
+    /*background-color: #0214e7;*/
+    font-size: 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5acac;
+    align-items: center;
+    display: flex;
+}
+.shoplist .box{
+    flex-grow: 1;
+    /*background-color: #a7e7d0;*/
+    font-size: 0.22rem;
+    padding: 0.1rem 0.38rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5acac;
+    /*justify-content: space-between;*/
+    display: flex;
+    align-items: center;
+}
+.shoplist .box .boxLeft{
+    width: 0.9rem;
+    height: 0.66rem;
+    /*background-color: #17ff25;*/
+    background-image: url("../img/zhifu/tu1.png");
+    background-size: 100% 100%;
+    /*display: flex;*/
+}
+.shoplist .box .boxRight{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 0.2rem;
+    justify-content: space-between;
+    font-size: 0.22rem;
+     /*background-color: #0214e7;*/
+}
+.shoplist .box .boxRight .right{
+    display: flex;
+}
+.shoplist .box .boxRight .right .naumber{
+    margin-right: 0.4rem;
+}
+
+/*外卖事项*/
+.else{
+    width: 100%;
+    height: 5.55rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    /*background-color: #17ff25;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.else .box{
+    flex-grow: 1;
+    /*background-color: #a7e7d0;*/
+    font-size: 0.22rem;
+    padding: 0.1rem 0.38rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5acac;
+    /*justify-content: space-between;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.else .box1{
+    box-sizing: border-box;
+    border-top: 1px solid #b5acac;
+}
+.else .box .right{
+    display: flex;
+    margin-left: 0.2rem;
+    justify-content: space-between;
+    font-size: 0.22rem;
+    /*background-color: #0214e7;*/
+}
+.else .box .boxRight .right{
+    display: flex;
+}
+.else .box .right .naumber{
+    margin-right: 0.4rem;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #c1c1c3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0rem;
+    left:0rem;
+}
+.tab .zhifu{
+    width: 1.52rem;
+    height: 100%;
+    background-color: #17ff25;
+    margin-left:5rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: white;
+}
+.tab .qingkuang{
+    padding: 0 0 0 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    height: 100%;
+    line-height: 0.98rem;
+}
+
+
+/*空吧*/
+.kongbai{
+    width: 100%;
+    height: 2rem;
+}

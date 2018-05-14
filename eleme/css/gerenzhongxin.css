@@ -1,0 +1,183 @@
+header{
+    width: 100%;
+    height: 2.4rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background-image: url("../img/gerenzhongxin/beijing.png");
+    background-size: 100% 100%;
+}
+header .top{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.3rem;
+}
+header .top i{
+    font-size: 0.4rem;
+}
+header .bottom{
+    width: 100%;
+    height: 1.52rem;
+    padding: 0.24rem 0 0.24rem 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .bottom .left{
+    width: 1.02rem;
+    height: 1.02rem;
+    border-radius: 50%;
+    background-image: url("../img/gerenzhongxin/touxiang.png");
+    background-size: 100% 100%;
+}
+header .bottom .zhongjian{
+    width: 2.20rem;
+    height: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.22rem;
+    margin-left: -3rem;
+}
+header .bottom .zhongjian .xiamian{
+    margin-top: 0.2rem;
+}
+/*中间*/
+.middle{
+    width: 100%;
+    height: 1.36rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.03rem solid #4d575a;
+    display: flex;
+    align-items: center;
+}
+.middle .box{
+    flex-grow: 1;
+    height: 0.9rem;
+    border-right: 0.01rem solid #4d575a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle .box1{
+    border-right: none;
+}
+.middle .box span{
+    font-size: 0.22rem;
+}
+.middle .box .yanse{
+    color: red;
+}
+/*情况*/
+.condition{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.condition .box{
+    width: 100%;
+    height: 1.04rem;
+    border-bottom: 0.01rem solid #4d575a;
+    box-sizing: border-box;
+    padding: 0 0.24rem 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.22rem;
+}
+.condition .box i{
+    font-size: 0.44rem;
+}
+.condition .box .icon-liwu{
+    font-size: 0.3rem;
+}
+.condition .box .zhongjian{
+    margin-left: -4rem;
+}
+.condition .box .zhongjian1{
+    margin-left: -4.5rem;
+}
+.condition .box .zhongjian2{
+    margin-left: -4.4rem;
+}
+.condition .box .zhongjian3{
+    margin-left: -3.5rem;
+}
+.condition .box .zhongjian4{
+    margin-left: -4rem;
+}
+.condition .box .zhongjian5{
+    margin-left: -3rem;
+}
+.condition .box .icon-iconset0391{
+    color: #0524d1;
+}
+.condition .box .icon-shoucang{
+    color: red;
+}
+.condition .box .icon-lipin{
+    color: green;
+}
+.condition .box .icon-jinbiduihuan{
+    color: yellow;
+}
+.condition .box .icon-dianzan{
+    color: purple;
+}
+.condition .box .icon-erji{
+    color: #3dff07;
+}
+.condition .box .icon-woshou{
+    color: #ff0ad7;
+}
+/*.condition .box .icon-shoucangi{*/
+    /*color: #ff0ad7;*/
+/*}*/
+/*dibu*/
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #e9ccff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    z-index: 999;
+}
+.footer > li{
+    width: 100%;
+    height: 100%;
+    /*background-color: #a71d5d;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer > li > a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.2rem;
+}
+.footer > li > a.actives span{
+    color: red;
+}
+.footer > li > a.actives i{
+    color: red;
+}
+
+
+/*空白*/
+
+.blank{
+    width: 100%;
+    height: 5rem;
+}
+

@@ -1,0 +1,402 @@
+html{
+    font-size: 100px;
+}
+header{
+    width: 100%;
+    height: 1.49rem;
+    background-image: url("../img/shoujiemian/daohang.png");
+    background-size: 100%;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0.26rem 0.24rem 0.31rem 0.24rem;
+}
+header > .hleft{
+    float: left;
+    width: 2.2rem;
+    height: 0.42rem;
+    background-color: #fff;
+    font-size: 0.12rem;
+    box-sizing: border-box;
+    padding: 0.1rem 0.24rem 0.14rem 0rem;
+}
+/*header > .hright{*/
+    /*float:right;*/
+    /*width: 3.89rem;*/
+    /*height: 0.42rem;*/
+    /*background-color: #fff;*/
+    /*!*padding: 0rem;*!*/
+/*}*/
+header .hleft a i{
+    font-size: 0.12rem;
+}
+.sousuo {
+    width: 3.86rem;
+    height: 0.40rem;
+    background-color: #fff;
+    color: #333333;
+    float:right;
+    box-sizing: border-box;
+    background-image: url("../img/shoujiemian/sousuo.png");
+    /*background-size: 100% 100%;*/
+    background-size: 0.27rem;
+    background-position-x:0.02rem;
+    background-position-y: 0.03rem;
+    line-height: 0.44rem;
+    background-repeat: no-repeat;
+    padding: 0 0 0 0.30rem;
+    border: none;
+}
+.nav{
+    width: 7.5rem;
+    height: 3.38rem;
+    /*background-color: yellow;*/
+    position: relative;
+}
+.nav .novBig{
+    width: 7.02rem;
+    height: 2.56rem;
+    /*background-color: red;*/
+    margin:0 0.24rem 0.5rem 0.24rem;
+}
+.nav .novBig .box{
+    width: 1.4rem;
+    height: 1.28rem;
+    /*background-color: #00a0c1;*/
+    float: left;
+    margin-bottom: 0.10rem;
+}
+.nav .novBig .box a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.nav .novBig .box .top1{
+    width: 1.4rem;
+    height: 1.0rem;
+    /*background-color: black;*/
+    background-image: url("../img/shoujiemian/yuan1.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nav .novBig .box .bottom{
+    width: 1.4rem;
+    height: 0.28rem;
+    /*background-color: #44ab49;*/
+    text-align: center;
+    line-height: 0.34rem;
+    font-size: 0.12rem;
+}
+.nav .novBig .box .top2{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan2.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top3{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan3.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top4{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan4.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top5{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan5.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top6{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan6.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top7{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan7.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top8{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan8.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top9{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan9.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .novBig .box .top10{
+    width: 1.4rem;
+    height: 1.0rem;
+    background-image: url("../img/shoujiemian/yuan10.png");
+    background-size: 1.0rem 1.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav .navXiao{
+    width: 1.6rem;
+    height: 0.18rem;
+    /*background-color: red;*/
+    margin: 0 auto;
+    margin-bottom: 0.10rem;
+    box-sizing: border-box;
+    padding-top: 0.04rem;
+}
+.nav .navXiao .left {
+    width: 0.2rem;
+    height: 0.08rem;
+    background-color: #00a5c4;
+    border-radius: 0.1rem;
+    margin-left: 0.5rem;
+    float: left;
+    /*margin-top: 0.06rem;*/
+}
+.nav .navXiao .right {
+    width: 0.08rem;
+    height: 0.08rem;
+    background-color: #00a5c4;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    float: left;
+    /*margin-top: 0.06rem;*/
+}
+
+hr{
+    width: 100%;
+    height: 0.10rem;
+    background-color: #7a7978;
+    margin-top: 0.2rem;
+}
+
+/*推荐商家*/
+.shonTitle{
+    width: 100%;
+    height: 1.16rem;
+    /*background-color: #00a0c1;*/
+    display: flex;
+    justify-content: center;
+    font-size: 0.28rem;
+    align-items: center;
+}
+.shonTitle .left{
+     background-image: url("../img/shoujiemian/left.png");
+     width:0.58rem;
+     height: 0.05rem;
+    margin: 0 0.12rem;
+}
+.shonTitle .right{
+    background-image: url("../img/shoujiemian/you.png");
+    width:0.58rem;
+    height: 0.04rem;
+    margin: 0 0.12rem;
+}
+/*选择内容*/
+.shopCate{
+    width: 100%;
+    height: 0.46rem;
+    /*background-color: red;*/
+    padding: 0rem 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.5);
+
+}
+ul{
+    width: 7.02rem;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font-size: 0.24rem;
+    color: #000;
+}
+.list i{
+    font-size: 0.24rem;
+}
+/*商品详情*/
+.shopBody{
+    width: 100%;
+    height: auto;
+}
+.shopBody .shoplist{
+    width: 100%;
+    height: 2.22rem;
+    border-bottom: 1px solid black;
+    padding: 0.3rem 0.24rem;
+    box-sizing: border-box;
+}
+.shopBody .shoplist a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*background-color: red ;*/
+    display: flex;
+}
+.shopBody .shoplist a .left{
+    width: 1.1rem;
+    height: 1.62rem;
+    /*background-color: #00a5c4;*/
+}
+.shopBody .shoplist a .left img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.shopBody .shoplist a .right{
+    height: 100%;
+    flex-grow: 1;
+    margin-left: 0.27rem;
+    /*background-color: yellow;*/
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.shopBody .shoplist a .right .shopName{
+    width: 100%;
+    height: 0.3rem;
+}
+.shopBody .shoplist a .right .shopName h3{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: normal;
+}
+.shopBody .shoplist a .right .second{
+    width: 100%;
+    height: 0.22rem;
+    /*background-color: red;*/
+    margin-top: 0.1rem;
+    display: flex;
+}
+.shopBody .shoplist a .right .second .secongLeft{
+    width: 3.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shopBody .shoplist a .right .second .secongLeft img{
+    width: 1.5rem;
+    height: 0.22rem;
+    /*display: block;*/
+}
+.wenzi{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+}
+.color1{
+    color: #a71111;
+}
+.color2{
+    color: #a71111;
+}
+
+.shopBody .shoplist a .right .second .secondright{
+    height: 100%;
+    flex-grow: 1;
+    /*background-color: pink;*/
+    display: flex;
+    justify-content: flex-end;
+}
+.shopBody .shoplist a .right .thired{
+    width: 100%;
+    height: 0.22rem;
+    /*background-color: blue;*/
+    display: flex;
+    color: #0214e7;
+}
+.shopBody .shoplist a .right .thired .juli{
+    margin-right: 0.2rem;
+}
+.shopBody .shoplist a .right .four{
+    width: 100%;
+    height: 0.22rem;
+    /*background-color: blue;*/
+    display: flex;
+    color: #e7706f;
+}
+.shopBody .shoplist a .right .four img{
+    height: 0.22rem;
+    width: 0.22rem;
+}
+.shopBody .shoplist a .right .five{
+    width: 100%;
+    height: 0.22rem;
+    /*background-color: blue;*/
+    display: flex;
+    color: #e71310;
+}
+.shopBody .shoplist a .right .five img{
+    height: 0.22rem;
+    width: 0.22rem;
+}
+.kongbai{
+    width: 100%;
+    height: 1rem;
+}
+
+/*tab栏*/
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #e9ccff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    z-index: 999;
+}
+.footer > li{
+    width: 100%;
+    height: 100%;
+    /*background-color: #a71d5d;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer > li > a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.2rem;
+}
+.footer > li > a.actives span{
+    color: red;
+}
+.footer > li > a.actives i{
+    color: red;
+}
+.kongbai{
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+}

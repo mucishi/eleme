@@ -1,0 +1,353 @@
+/*头部*/
+header{
+    width: 100%;
+    height: 2.35rem;
+    /*background-color: #4d94d7;*/
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/second/top.png");
+    background-size: 100% 100%;
+}
+header > .top{
+    width: 100%;
+    height: 0.91rem;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header > .top .right{
+    display: flex;
+}
+header > .top > i{
+    font-size: 0.28rem;
+}
+header > .top .right .icon-shoucang{
+    margin-right: 0.1rem;
+}
+header > .bottom{
+    flex-grow: 1;
+    /*background-color: #90e7b7;*/
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    display: flex;
+}
+header > .bottom .left{
+    width: 1.10rem;
+    height: 1.05rem;
+    background-image: url("../img/second/nav.png");
+    background-size: 100% 100%;
+}
+header > .bottom .right{
+    flex-grow: 1;
+    margin-left: 0.2rem;
+    /*background-color: #a71d5d;*/
+    display: flex;
+    flex-direction: column;
+}
+header > .bottom .right .title{
+    /*background-color: #4d94d7;*/
+    /*height: 0.28rem;*/
+    display: flex;
+    flex-grow: 1;
+    font-size: 0.34rem;
+    color: black;
+}
+header > .bottom .right .zhongjian{
+    /*background-color: yellow;*/
+    /*height: 0.16rem;*/
+    width: 3rem;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    font-size: 0.18rem;
+    white-space: nowrap;
+}
+header > .bottom .right .xiamian{
+    /*background-color: yellow;*/
+    /*height: 0.16rem;*/
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 0.12rem;
+    white-space: nowrap;
+    /*-webkit-line-clamp: 1;*/
+    color: #a7403e;
+}
+.seclet{
+    width: 100%;
+    height: 0.52rem;
+    padding: 0 0.24rem 0.1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #797979;
+    /*background-color: #00a0c1;*/
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.24rem;
+    align-items: flex-end;
+
+}
+.seclet > span{
+    position: relative;
+}
+/*选择部分*/
+/*.seclet > span.actives{*/
+    /*color: #a74139;*/
+/*}*/
+.seclet > span.actives:before{
+    content: '';
+    width: 100%;
+    height: 0.07rem;
+    border-radius: 0.03rem;
+    background-color: red;
+    display: block;
+    position: absolute;
+    bottom: -0.08rem;
+
+}
+
+/* 主体部分*/
+.shoplist{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.shoplist .left{
+    width: 1.56rem;
+    height: auto;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+.shoplist .left .leftList{
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: 0.01rem solid #797979;
+    box-sizing: border-box;
+    background-color: #ebe7e7;
+    /*padding: 0 0 0 0.24rem;*/
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.20rem;
+}
+.shoplist .left .list{
+    background-color: white;
+    border: none;
+}
+.shoplist .right{
+    flex-grow: 1;
+    height: auto;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+.shoplist .right .rightlist{
+    width: 100%;
+    height: 1.19rem;
+    box-sizing: border-box;
+    /*background-color: yellow;*/
+    margin-bottom: 0.54rem;
+    display: flex;
+    padding: 0 0.24rem 0 0;
+    box-sizing: border-box;
+}
+.shoplist .right .rightlist .left{
+    width: 1.1rem;
+    height: 1.19rem;
+    background-image: url("../img/second/right1.png");
+    background-size: 100% 100%;
+}
+.shoplist .right .rightlist .right{
+    flex-grow: 1;
+    display: flex;
+    margin-left: 0.12rem;
+    /*background-color: red;*/
+}
+.shoplist .right .rightlist .right .title{
+    display: flex;
+    flex-grow: 1;
+    /*background-color: #00a0c1;*/
+    align-items: flex-start;
+}
+.shoplist .right .rightlist .title h2{
+    font-size: 0.30rem;
+}
+.shoplist .right .rightlist .right .shuoming{
+    display: flex;
+    flex-grow: 1;
+    /*background-color: #a71d5d;*/
+    font-size: 0.18rem;
+}
+.shoplist .right .rightlist .right .xiaoliang{
+    display: flex;
+    flex-grow: 1;
+    /*background-color: #20a73b;*/
+    font-size: 0.18rem;
+}
+.shoplist .right .rightlist .right .xiaoliang span{
+    font-size: 0.18rem;
+}
+.shoplist .right .rightlist .right .money{
+    display: flex;
+    flex-grow: 1;
+    /*background-color: #a77e20;*/
+    font-size: 0.18rem;
+    align-items: flex-end;
+}
+.shoplist .right .rightlist .right .money a{
+    font-size: 0.18rem;
+    display: flex;
+    /*flex-grow: 1;*/
+    color: #e71310;
+}
+.shoplist .right .rightlist .right .money .rightJuli{
+    margin-right: 2.6rem;
+}
+.shoplist .right .rightlist .right .money a .icon-qian{
+    font-size: 0.18rem;
+    color: #e71310;
+}
+.shoplist .right .rightlist .right .money .wenben {
+    width: 0.3rem;
+    height: 100%;
+    /*background-color: #90e7b7;*/
+    color: black;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.shoplist .right .list{
+    margin-top: 0.56rem;
+}
+/*满减*/
+.manjian{
+    width: 100%;
+    height: 0.3rem;
+    background-color: #e5de6a;
+    color: white;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+/*购物详情*/
+
+.shoopinglist{
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+/*已选*/
+.yixuan{
+    width: 100%;
+    height: 0.48rem;
+    background-color: #959481;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.16rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xiangqing{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 1.06rem;
+    font-size: 0.20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.xiangqing i{
+    color: red;
+}
+.xiangqing .right{
+    color: red;
+    display: flex;
+}
+.xiangqing .right .icon-53{
+    margin-left: 0.3rem;
+}
+.xiangqing .right .wenben{
+    width: 0.5rem;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #c1c1c3;
+    position: relative;
+    position: fixed;
+    bottom: 0rem;
+    left:0rem;
+}
+.tab .yuan{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    /*margin-bottom: 0.24rem;*/
+    position: absolute;
+    bottom: 0.24rem;
+    left:0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab .yuan i{
+    /*width: 1rem;*/
+    /*height: 1rem;*/
+    font-size: 0.8rem;
+    color: #faf9f9;
+}
+.tab .zhifu{
+    width: 1.52rem;
+    height: 100%;
+    background-color: #17ff25;
+    margin-left:6rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: white;
+}
+.tab .xiaoyuan{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: #dd731d;
+    position: absolute;
+    bottom: 0.92rem;
+    left: 1.02rem;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.tab .shuoming{
+    font-size: 0.18rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.36rem;
+}
+.tab .shuoming{
+    font-size: 0.18rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 1.36rem;
+}
+/*空白*/
+.kongbai{
+    width: 100%;
+    height: 5rem;
+}

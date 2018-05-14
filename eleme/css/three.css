@@ -1,0 +1,257 @@
+header{
+    width: 100%;
+    height: 4.26rem;
+    background-image: url("../img/thired/top.png");
+    background-size: 100% 100%;
+    padding: 0.4rem 0.24rem 0rem 0.24rem;
+    box-sizing: border-box;
+}
+header > .top{
+    width: 100%;
+    height: 0.91rem;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header > .top .right{
+    display: flex;
+    /*margin-right: 0.48rem;*/
+}
+header > .top .right .icon-shoucang{
+    margin-right: 0.1rem;
+}
+header > .top > i{
+    font-size: 0.28rem;
+}
+header .name{
+    width: 2.3rem;
+    height: 0.36rem;
+    /*background-color: #00a5c4;*/
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.36rem;
+    margin-top: 3.62rem;
+}
+header .xiaoshou{
+    width: 3rem;
+    height: 0.36rem;
+    /*background-color: #00a5c4;*/
+    font-size: 0.18rem;
+    color: #848384;
+    line-height: 0.36rem;
+    margin-top: 0.22rem;
+}
+header .xiaoshou .one{
+    margin-right: 0.1rem;
+}
+header .money{
+    width: 100%;
+    height: 0.72rem;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #5c9fd7;*/
+    box-sizing: border-box;
+    /*align-items: flex-end;*/
+}
+header .money .price{
+    width: 0.86rem;
+    height: 0.53rem;
+    /*background-color: #a71d5d;*/
+    color: orange;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.53rem;
+    margin-top: 0.1rem;
+}
+header .money .price i{
+    font-size: 0.24rem;
+    color: orange;
+}
+header .money .tianjia{
+    width: 2.09rem;
+    height: 0.53rem;
+    border-radius: 0.25rem;
+    background-color: #dd731d;
+    margin-top: 0.1rem;
+    color: white;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.53rem;
+}
+header p{
+    width: 100%;
+    height: 1.60rem;
+    display: flex;
+    margin-top: 0.3rem;
+    font-size: 0.18rem;
+}
+.zhongjian{
+    width: 100%;
+    height: 0.64rem;
+    /*background-color: yellow;*/
+    margin-top: 4.1rem;
+    border-top: 0.03rem solid #4d575a;
+    border-bottom: 0.01rem solid #4d575a;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    color: black;
+    font-weight: bold;
+   line-height: 0.64rem;
+}
+/*评价*/
+.pinjia{
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.pinjia .box{
+    width: 100%;
+    height: 2.04rem;
+    /*background-color: #00a5c4;*/
+    padding: 0.3rem 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.pinjia .box .left{
+    width: 0.59rem;
+    height: 0.57rem;
+    border-radius: 50%;
+    /*background-color: #17ff25;*/
+    background-image: url("../img/thired/touxiang.png");
+    background-size: 100% 100%;
+}
+.pinjia .box .right{
+    flex-grow: 1;
+    /*background-color: #44ab49;*/
+    margin-left: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.pinjia .box .right .name{
+    flex-grow: 1;
+    display: flex;
+    /*background-color: #17ff25;*/
+    font-size: 0.22rem;
+    align-items: flex-start;
+}
+.pinjia .box .right .name img{
+    width: 1.4rem;
+    height: 0.22rem;
+    display: flex;
+    margin-top: 0.07rem;
+    margin-left: 0.2rem;
+
+}
+.pinjia .box .right .dizhi{
+    flex-grow: 1;
+    display: flex;
+    /*background-color: #4257ff;*/
+    font-size: 0.22rem;
+    align-items: center;
+}
+.pinjia .box .right .dizhi .icon-iconset0391{
+    font-size: 0.22rem;
+    display: flex;
+    display: block;
+}
+.pinjia .box .right .shuoming{
+    flex-grow: 1;
+    display: flex;
+    /*background-color: #fc4cff;*/
+    font-size: 0.22rem;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.pinjia .box .right .shuoming .rightLeft{
+    display: flex;
+}
+.pinjia .box .right .shuoming .right{
+    display: flex;
+    background-color: #17ff25;
+}
+.pinjia .box .right .shuoming .right2{
+    display: flex;
+    justify-content: space-between;
+}
+.pinjia .box .right .shuoming .right2 i{
+    font-size: 0.22rem;
+}
+.pinjia .box .right .shuoming .right2 .two{
+    margin-left: 0.1rem;
+}
+/*空白*/
+.kongbai{
+    width: 100%;
+    height: 5rem;
+}
+
+/*tab栏*/
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #c1c1c3;
+    position: relative;
+    position: fixed;
+    bottom: 0rem;
+    left:0rem;
+}
+.tab .yuan{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    /*margin-bottom: 0.24rem;*/
+    position: absolute;
+    bottom: 0.24rem;
+    left:0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab .yuan i{
+    /*width: 1rem;*/
+    /*height: 1rem;*/
+    font-size: 0.8rem;
+    color: #faf9f9;
+}
+.tab .zhifu{
+    width: 1.52rem;
+    height: 100%;
+    background-color: #17ff25;
+    margin-left:6rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: white;
+}
+.tab .xiaoyuan{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: #dd731d;
+    position: absolute;
+    bottom: 0.92rem;
+    left: 1.02rem;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.tab .shuoming{
+    font-size: 0.18rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.36rem;
+}
+.tab .shuoming{
+    font-size: 0.18rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 1.36rem;
+}
